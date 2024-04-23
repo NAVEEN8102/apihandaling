@@ -1,0 +1,23 @@
+{
+  "name": "apihandaling",
+  "version": "1.0.0",
+  "description": "for handal api req",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NAVEEN8102/apihandaling.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NAVEEN8102/apihandaling/issues"
+  },
+  "homepage": "https://github.com/NAVEEN8102/apihandaling#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
