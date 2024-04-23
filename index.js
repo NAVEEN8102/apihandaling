@@ -36,7 +36,7 @@ const userData = [
     }
 ]
 
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
    try {
        res.send(userData);
    } catch (error) {
