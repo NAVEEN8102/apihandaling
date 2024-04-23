@@ -37,7 +37,12 @@ const userData = [
 ]
 
 app.get('/', (req, res) => {
-    res.send(userData);
+   try {
+       res.send(userData);
+   } catch (error) {
+    console.log(error);
+   }
+    
 });
 
 app.listen(port, () => {
